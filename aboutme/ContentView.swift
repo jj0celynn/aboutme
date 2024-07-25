@@ -35,9 +35,11 @@ struct ContentView: View {
                     Text("I love traveling to San Fransico with my family during my spring breaks to visit my family")
                      HStack{
             Image("cdmx")
-    .border(Color.white, width 15)
+                             .border(Color.white, width, 15)
             Text("Visting CDMX is something I do alsmost very summer. My dad is from Mexico City and ")
                 
+                         
+                         HStack{
             }
                 
             }
